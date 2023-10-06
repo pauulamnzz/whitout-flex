@@ -1,0 +1,63 @@
+body{
+    background-image: url('back.jpeg'); 
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+
+#encabezado {
+    background-color: black;
+    opacity: 0.2;
+    text-align: center;
+    margin: 0;
+    padding: 20px; /* Agregamos padding para centrar horizontalmente */
+    height: 8vh; /* Ajusta la altura para pantallas más pequeñas */
+}
+
+.contenedor{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    position: absolute;
+}   
+.imagenes_container {
+    text-align: center;
+    float: right;
+    border-radius: 10px;
+    margin: 10px; /* Espaciado entre los elementos */
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-top: 0px; /* Ajusta según sea necesario */
+    height: 300px;
+}
+#footer {
+    background-color: black;
+    opacity: 0.2;
+    width: 100vw;
+    height: 16vh;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+}
+#footer h5{
+    line-height: 8vh;
+}
+/* Estilos específicos para pantallas más pequeñas usando @media queries */
+/*@media (max-width: 768px) {
+    #encabezado {
+        height: 10vw;
+    }
+    .contenedor{
+        margin-left: 5px
+    }
+ 
+    .imagenes_container{
+        height: 30vh;
+    width: 40vw;
+    }
+ 
+}*/
